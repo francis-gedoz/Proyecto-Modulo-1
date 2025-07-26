@@ -1,7 +1,7 @@
 Algoritmo CostoFinalPedido
 	
-	Definir neto, cupon, cantidad, peso, envio, pesoTotal, excesoPeso, costoPesoExtra Como Real
-	Definir precioDescuento, precioImpuesto, precioCantidad, costoFinal Como Real
+	Definir neto, cupon, cantidad, peso, envio, pesoTotal, excesoPeso Como Real
+	Definir precioDescuento, precioImpuesto, precioCantidad, costoFinal, costoPesoExtra Como Real
 	Definir producto, destino, tieneCupon Como Cadena
 	Definir descuentoCantidad, IVA Como Entero
 	
