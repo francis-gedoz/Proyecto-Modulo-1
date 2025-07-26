@@ -3,23 +3,21 @@ Pseudocódigo de Pseint - Cálculo Costo Final de Pedido
 
 ## Descripción general:
 
-Algoritmo desarrollado en PSeInt que permite calcular el costo total de un pedido con cierta cantidad de productos, integrando múltiples factores comerciales y logísticos comunes en un proceso de venta, ligeramente adaptado a la realidad local y que escapa un poco del ejercicio originalmente propuesto. 
+Algoritmo desarrollado en PSeInt que permite calcular el costo total de un pedido con cierta cantidad de un mismo producto, integrando múltiples factores comerciales y logísticos comunes en un proceso de venta, ligeramente adaptado a la realidad local y que entrega una solución algo distinta de la tarea originalmente propuesta. 
 
 El algoritmo guía al usuario paso a paso, solicitando información relevante sobre el producto, las condiciones de envío y posibles descuentos, para luego generar un desglose detallado del costo final. Este proyecto es útil como ejercicio práctico de estructuras de control, operaciones matemáticas y manejo de arreglos unidimensionales en pseudocódigo.
 
 ## El programa realiza los siguientes pasos:
 
-•   Ingreso de datos del pedido;
+•   Nombre del producto.
 
-•   Nombre del producto;
+•   Precio neto unitario.
 
-•   Precio neto unitario;
+•   Confirmación de cupón de descuento (10% si aplica).
 
-•   Confirmación de cupón de descuento (10% si aplica);
+•   Cantidad de unidades a comprar.
 
-•   Cantidad de unidades a comprar;
-
-•   Peso unitario en kilogramos;
+•   Peso unitario en kilogramos.
 
 •   Destino del envío: Santiago o Regiones.
 
@@ -47,17 +45,17 @@ El algoritmo guía al usuario paso a paso, solicitando información relevante so
 
 ## Se muestra un resumen detallado con:
 
-•   Subtotales
+•   Subtotales.
 
-•   IVA
+•   IVA.
 
-•   Descuentos
+•   Descuentos.
 
-•   Costos por peso extra
+•   Costos por peso extra.
 
-•   Costo total de envío
+•   Costo total de envío.
 
-•   Precio final del pedido completo
+•   Precio final del pedido completo.
 
  ## Estructuras utilizadas:
 
